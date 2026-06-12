@@ -416,7 +416,8 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 @media (max-width: 920px) {
   .hero-grid { grid-template-columns: 1fr; }
   .hero-photo { order: -1; }
-  .hero-photo .frame { min-height: 300px; aspect-ratio: 4/3; height: auto; }
+  .hero-photo .frame { aspect-ratio: 3/4; height: auto; }
+  .hero-photo img { object-position: 68% 50%; }
   .hero-sign { text-align: left; }
 }
 
@@ -522,7 +523,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 @media (max-width: 860px) {
   .about-grid { grid-template-columns: 1fr; }
   .about-media { position: static; }
-  .about-portrait { aspect-ratio: 4/3; max-width: 460px; }
+  .about-portrait { aspect-ratio: 3/4; max-width: 400px; }
 }
 
 /* ============================================================
